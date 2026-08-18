@@ -1,0 +1,11 @@
+{
+  "name": "divineaftercare",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Divine AfterCare — concierge post-surgical nursing, Orange County CA",
+  "scripts": {
+    "build": "python3 src/build.py",
+    "dev": "python3 src/build.py && python3 -m http.server 4321 --bind 127.0.0.1",
+    "serve": "python3 -m http.server 4321 --bind 127.0.0.1"
+  }
+}
